@@ -3,9 +3,9 @@ title: fussball_dashboard
 account: madsboending
 server: shinyapps.io
 appId: 205103
-bundleId: 946644
+bundleId: 953706
 url: https://madsboending.shinyapps.io/fussball_dashboard/
-when: 1503148278.60517
+when: 1503607908.43359
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: app2.R|bordfodbold_dashboard.R|mobilllaan_server.r|mobillaan_ui.r

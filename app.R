@@ -232,8 +232,8 @@ server <- shinyServer(function(input, output, session) {
                            })
   
   
-  output$downloadTable <- renderTable(datatable({
-    tableData()
+  output$downloadTable <- renderDataTable(datatable({
+    tableData()[order(-tableData()$Rating),]
   }), width = '100%')
   
 })
